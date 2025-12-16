@@ -1,0 +1,24 @@
+bueno aqui debajo estara todo lo que tienen que hacer para subir y despues loguearse con revistas
+
+1- pueden seleccionar la que dessen
+
+configuracion de la revista ediciones:
+
+/rv https://ediciones.uo.edu.cu/index.php/e1/ darielrd Torriente#4578 10 1528 n
+
+una vez puesto eso en el bot ya pueden subir
+
+paso para descargar de la revista ediciones:
+
+Ojo Tienen que loguearse para descargar lo subido 
+
+hacer el login:
+
+este ese el host:https://ediciones.uo.edu.cu/index.php/e1/
+usario para acceder es :darielrd
+la contraseña para acceder es:Torriente#4578
+
+una vez echo el login solamente tienen que minimizar el navegador y poner a descargar
+
+
+ojo mientras se valla add revistas seguira agrandandose el tuto
