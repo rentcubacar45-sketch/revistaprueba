@@ -50,12 +50,12 @@ from decorators import async_decorator
 
 from RVClient import Rlogin
 
-api_id = 24253609
-api_hash = "20c1618672d0d23844bf79d8a25de44f"
-bot_token = "5935019057:AAGC8UersIuBWo2cNvYMgXHnULdO1vT-rt8"
-Channel_Id = -1001910694479
+api_id = 20534584
+api_hash = "6d5b13261d2c92a9a00afc1fd613b9df"
+bot_token = "7872723290:AAEnpoT7WNPEC0ZIGrk9HHFRVcEKu2EbXRM"
+Channel_Id = -3566891542
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
-boss = ['darielxd','YacielCL']#usuarios supremos
+boss = ['Eliel_21','YacielCL']#usuarios supremos
 
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"","vcl":"","uccfd":"","ucuser": "", "ucpass":"","uclv_p":"", "gp":None, "s":"On", 
 			'YacielCL': {'z': 99,"m":"e","a":"c","t":"y","gp":False},
@@ -2649,3 +2649,4 @@ print("started")
 bot.start()
 print(10)
 bot.loop.run_forever()
+
