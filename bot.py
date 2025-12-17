@@ -55,10 +55,10 @@ api_hash = "6d5b13261d2c92a9a00afc1fd613b9df"
 bot_token = "7872723290:AAEnpoT7WNPEC0ZIGrk9HHFRVcEKu2EbXRM"
 Channel_Id = -3566891542
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
-boss = ['gatitoomiauu']#usuarios supremos
+boss = ['Eliel_21']#usuarios supremos
 
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"","vcl":"","uccfd":"","ucuser": "", "ucpass":"","uclv_p":"", "gp":None, "s":"On", 
-			'YacielCL': {'z': 99,"m":"e","a":"c","t":"y","gp":False},
+			'Eliel_21': {'z': 99,"m":"e","a":"c","t":"y","gp":False},
 			'darielxd': {'z': 99,"m":"e","a":"c","t":"y","gp":False}
 			}
 
@@ -2649,6 +2649,7 @@ print("started")
 bot.start()
 print(10)
 bot.loop.run_forever()
+
 
 
 
