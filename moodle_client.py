@@ -168,9 +168,9 @@ class MoodleClient2:
             sesskey = soup.find("input", attrs={"name": "sesskey"})["value"]
             query = URL(soup.find("object", attrs={"type": "text/html"})["data"]).query
 
-            client_id_pattern = '"client_id":"\w{13}"'
+            client_id_pattern = r'"client_id":"\w{13}"'
             client_id = re.findall(client_id_pattern, resp_1)
-            client_id = re.findall("\w{13}", client_id[0])[0]
+            client_id = re.findall(r"\w{13}", client_id[0])[0]
             itemid = query["itemid"]
             file = Progress(path,progress_callback)
             # Crear payloads POST
@@ -234,9 +234,9 @@ class MoodleClient2:
             soup = BeautifulSoup(resp_1, "html.parser")
             sesskey = soup.find("input", attrs={"name": "sesskey"})["value"]
 
-            client_id_pattern = '"client_id":"\w{13}"'
+            client_id_pattern = r'"client_id":"\w{13}"'
             client_id = re.findall(client_id_pattern, resp_1)
-            client_id = re.findall("\w{13}", client_id[0])[0]
+            client_id = re.findall(r"\w{13}", client_id[0])[0]
 
             file = URL(url).path.split("/")
 
